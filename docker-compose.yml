@@ -1,17 +1,17 @@
 version: '3'
 
 services:
-  telecaller-server:
-    build: ./telecaller
+  telecalling-service:
+    build: ./telecalling-service
     command: node coreServer.js
     volumes:
-     - ./telecaller:/VoiceAmity/telecaller-server
+     - ./telecalling-service:/VoiceAmity/telecalling-service
     ports:
       - "5000:5000"
-  voiceamity-web-server:
-    build: ./web-server
+  admin-web-server:
+    build: ./Admin-web-server
     command: node coreServer.js
     volumes:
-     - ./web-server:/VoiceAmity/web-server
+     - ./Admin-web-server:/VoiceAmity/Admin-web-server
     ports:
       - "5001:3000"
