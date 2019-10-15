@@ -1,0 +1,25 @@
+{
+  "name": "telecaller",
+  "version": "1.0.0",
+  "description": "--telecalling Microservice",
+  "main": "coreServer.js",
+  "scripts": {
+    "test": "--",
+    "start": "node coreServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peiacademics/VoiceAmity.git"
+  },
+  "author": "peiacademics",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peiacademics/VoiceAmity/issues"
+  },
+  "homepage": "https://github.com/peiacademics/VoiceAmity#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "forever": "^1.0.0",
+    "nodemon": "^1.19.3"
+  }
+}
